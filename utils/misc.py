@@ -33,7 +33,8 @@ def run_episodes(agent):
         if config.episode_limit and ep > config.episode_limit:
             break
 
-        if config.max_steps and agent.total_steps > config.max_steps:
+        #if config.max_steps and agent.total_steps > config.max_steps:
+        if agent.total_steps > 4000000:
             break
 
         if config.test_interval and ep % config.test_interval == 0:

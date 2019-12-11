@@ -464,7 +464,7 @@ if __name__ == '__main__':
     # quantile_regression_dqn_cart_pole()
     # async_cart_pole()
     # a3c_cart_pole()
-    a2c_cart_pole()
+    #a2c_cart_pole()
     # a3c_continuous()
     # p3o_continuous()
     # d3pg_continuous()
@@ -485,5 +485,27 @@ if __name__ == '__main__':
 
     # dqn_ram_atari('Pong-ramNoFrameskip-v4')
 
-    # acvp.train('PongNoFrameskip-v4')
+    #acvp.train('ZaxxonNoFrameskip-v4')
+    #acvp.trainSingleGame('SpaceInvadersNoFrameskip-v4',30, 32, 25)
+    #acvp.trainSingleGame('SpaceInvadersNoFrameskip-v4',10, 32, 12.5)
+    #acvp.trainSingleGame('SpaceInvadersNoFrameskip-v4',10, 32, 6.25)
+    #acvp.trainSingleGame('PongNoFrameskip-v4',40, 32, 25)
+    #acvp.trainSingleGame('ZaxxonNoFrameskip-v4',40, 32, 90)
+    #acvp.trainMultiGame('Multi2',40,32, 0.25, 0.95)
+    #(game, numEpoch, batchSize, trainingSize)
+    #ten model for 10 or 20 epochs
+    #train 11th original for 2
+    #acvp.trainSingleGame('FreewayNoFrameskip-v4',10, 32, 89, 6)
+    #sacvp.trainSingleGame('MsPacmanNoFrameskip-v4',10, 32, 30, 18)
+    #acvp.trainSingleGame('PongNoFrameskip-v4',1, 32, 89)
+    #acvp.trainSingleGame('BowlingNoFrameskip-v4',10, 32, 89)
+    #acvp.trainSingleGame('BoxingNoFrameskip-v4',10, 32, 4, 18)
+    #acvp.trainSingleGame('QbertNoFrameskip-v4',10, 32, 4, 6)
+    #acvp.trainMultiGame('PongBowl2_residual', numEpoch=20, batchSize=32, num_actions=6)
+    #acvp.trainMultiGame('PongBowl2_residual', numEpoch=20, batchSize=32, num_actions=18)
+    #acvp.trainMultiGame('PongBowl2', numEpoch=20, batchSize=32, num_actions=6)
+    #acvp.trainMultiGame('PongBowl2', numEpoch=20, batchSize=32, num_actions=18)
+    #acvp.testMultiGame2('PongBowl2', 1, 32, 18)
+    acvp.testSingleGame('MsPacmanNoFrameskip-v4',1, 32, [4], 18)
+    #acvp.testMGame()
 

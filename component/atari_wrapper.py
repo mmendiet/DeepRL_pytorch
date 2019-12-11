@@ -134,6 +134,7 @@ class DatasetEnv(gym.Wrapper):
         super(DatasetEnv, self).__init__(env)
         self.saved_obs = []
         self.saved_actions = []
+        self.saved_rewards = []
 
     def get_saved(self):
         return self.saved_obs, self.saved_actions
@@ -146,6 +147,7 @@ class DatasetEnv(gym.Wrapper):
         obs, reward, done, info = self.env.step(action)
         self.saved_actions.append(action)
         self.saved_obs.append(obs)
+        self.saved_rewards.append(reward)
         return obs, reward, done, info
 
     def reset(self):
