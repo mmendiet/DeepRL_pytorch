@@ -1,5 +1,5 @@
 # Transfer Learning Between Different Games for Prediction via Generative Methods
-This repository is a modified version of [DeepRL_pytorch](https://github.com/wuyx/DeepRL_pytorch) for use in my Reinforcement Learning course project. The aim of this project is to quantify transfer learning and cross-game compatibility for model-based prediction.
+This repository is a modified version of [DeepRL_pytorch](https://github.com/wuyx/DeepRL_pytorch) for use in my Reinforcement Learning course project. The aim of this project is to quantify transfer learning and cross-game compatibility in Atari.
 
 Utilized algorithms:
 * Deep Q-Learning (DQN)
